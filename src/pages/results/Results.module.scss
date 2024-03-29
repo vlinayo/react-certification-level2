@@ -1,0 +1,39 @@
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+  width: 60%;
+  margin-top: 40px;
+  font-size: large;
+  margin-left: auto;
+  margin-right: auto;
+
+  &--red {
+    background-color: #f80808a8;
+    color: white;
+  }
+
+  &--yellow {
+    background-color: #e0d30fed;
+  }
+
+  &--green {
+    background-color: #008000b3;
+    color: white;
+  }
+}
+
+.questions {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin: 34px 120px;
+
+    & > button:last-of-type {
+      margin-top: 24px;
+      background-color: #83cbf5;
+      color: white;
+    }
+  }
+}

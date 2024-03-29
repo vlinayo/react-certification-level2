@@ -1,0 +1,19 @@
+.quiz {
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin: 34px 120px;
+
+    & > button:last-of-type {
+      margin-top: 42px;
+      background-color: #83cbf5;
+      color: white;
+    }
+  }
+}

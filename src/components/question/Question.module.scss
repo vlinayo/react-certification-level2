@@ -1,0 +1,17 @@
+.question {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+}
+
+.options {
+  &__container {
+    display: flex;
+
+    > button {
+      margin-right: 14px;
+    }
+  }
+}

@@ -109,7 +109,7 @@ const Quiz = () => {
    * It redirects the user to the results page
    */
   const handleSubmit = () => {
-    navigate('/results');
+    navigate('/react-certification-leve2/results');
   };
 
   return (

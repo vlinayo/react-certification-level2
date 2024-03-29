@@ -20,7 +20,7 @@ const Results = () => {
    */
   const handleFinish = () => {
     setTriviaQuestionsResponsesList([]);
-    navigate('/');
+    navigate('/react-certification-leve2/');
   };
 
   const correctnessScaleClass =

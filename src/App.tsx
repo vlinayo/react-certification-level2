@@ -11,16 +11,16 @@ import Quiz from './pages/quiz/Quiz';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/react-certification-leve2/',
     element: <Quiz />,
   },
   {
-    path: '/results',
+    path: '/react-certification-leve2/results',
     element: <Results />,
   },
   {
     path: '*',
-    element: <Navigate to="/" replace />,
+    element: <Navigate to="/react-certification-leve2/" replace />,
   },
 ]);
 
